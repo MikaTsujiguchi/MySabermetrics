@@ -1,0 +1,69 @@
+body {
+    font-family: "system-ui";
+    background-color: #c0e2ff;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    height: 100vh;
+    margin: 0;
+    /* overflow-y: auto; */
+  }
+
+ #table {
+  height: 200px;
+  width: 600px;
+  background-color: rgb(247, 247, 247);
+  border-collapse: collapse;
+  table-layout: fixed;
+  overflow: hidden;
+  text-align: center;
+  overflow-y: scroll;
+  margin-left: 25px;
+
+ }
+
+ #table td{
+  padding: 5px 15px 5px 15px;
+  text-align: center;
+  }
+ 
+
+
+  #btn_submit {
+
+    font-size: 15px;
+  }
+
+  #name{
+    margin-bottom: 15px;
+    font: bold;
+  }
+
+  #grade{
+    margin-bottom: 15px;
+  }
+
+  #position{
+    margin-bottom: 15px;
+  }
+
+  #OPS{
+    margin-bottom: 15px;
+  }
+
+  #wOBA{
+    margin-bottom: 15px;
+  }
+
+  #Spd{
+    margin-bottom: 15px;
+  }
+
+  #IsoP{
+    margin-bottom: 15px;
+  }
+
+  #IsoD{
+    margin-bottom: 15px;
+  }
+  
